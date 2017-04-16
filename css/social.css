@@ -1,0 +1,60 @@
+.social {
+    position: absolute;
+    top: 0;
+    padding-top: 20px;
+    right: 0;
+    width: 392px;
+    height: 80px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.social .item{
+    margin-top: -100px;
+    position: relative;
+    float: left;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.social .item:first-child {
+    margin-left: 192px;
+}
+
+.social .item:hover{
+    opacity: 1;
+}
+
+.social .item:hover .info {
+    opacity: 1;
+    right: 67px;
+    cursor: pointer;
+}
+
+.social .item img{
+    position: relative;
+    z-index: 999;
+}
+
+.social .item .info {
+    position: absolute;
+    top: 7.4px;
+    left: 7.7px;
+    width: 192px;
+    height: 44.9px;
+    border-radius: 22.5px;
+    background: #eaebe9;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 100;
+}
+
+.social .item .info p {
+    color: #4c4c72;
+    font-family: Corbel;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: left;
+    margin-left: 56px;
+    margin-top: 12px;
+}

@@ -1,0 +1,23 @@
+body, html {
+    background: url("../source/back.png") no-repeat fixed;
+    font-family: 'Titillium Web', sans-serif, Corbel;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+p, a {
+    text-decoration: none;
+    margin: 0;
+    text-align: center;
+}
+#back-b {
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 2s ease;
+}
